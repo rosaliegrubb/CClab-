@@ -1,0 +1,38 @@
+
+body{
+    background-color: #e0f9dc;
+}
+.green{
+    font-size: xx-large;
+color: rgb(247, 84, 152);
+}
+.pink{
+color: rgb(31, 109, 211);
+}
+.blue{
+color: rgb(85, 85, 244);
+}
+#title-wrapper{
+    text-align: center;
+}
+#main-wrapper{
+    width: 800px;
+    position: relative;
+    margin: auto;
+}
+.two-columns{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding: 0 15px; 
+}
+ .three-columns{
+    width: 50%;
+    float: right;
+    box-sizing: border-box;
+    padding: 0 15px; 
+ }
+
+#footer{
+    
+}
