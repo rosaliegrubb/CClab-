@@ -121,7 +121,7 @@ function resetSketch() {
       if (!isBlack) { // Only draw the sun if Doodle Bop is not grey
         loop();
         fill('yellow');
-        circle(x3, y3 - 100, 100);
+        circle(x3, y3 - 200, 60);
         x3 = (x3 + 1) % width; // Move the sun horizontally and wrap around
         y3 = y + 1;
       } else {
