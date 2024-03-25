@@ -22,21 +22,12 @@ function setup() {
   }
 }
 
-
-  // ...except to adjust the dancer's name on the next line:
-  dancer = new DoodleDancer(width / 2, height / 2);
-}
-
 function draw() {
   background(220);
   for (let dancer of dancers) {
     dancer.update();
     dancer.display();
   }
-}
-
-  dancer.update();
-  dancer.display();
 }
 
 // You only code inside this class.
@@ -49,14 +40,11 @@ class Dancer {
     this.angle = 0;
     this.amplitude = 50; 
   }
-  
   update() {
     this.angle += 0.05;
     this.y = height / 2 + sin(this.angle) * this.amplitude; 
   }
-    // update properties here to achieve
-    // your dancer's desired moves and behaviour
-  }
+  
   display() {
     push();
     translate(this.x - 200, this.y - 200);
@@ -146,7 +134,7 @@ class Dancer {
     // comment it out or delete it eventually.
 //     this.drawReferenceShapes()
 
-  
+//     pop();
 //   }
 //   drawReferenceShapes() {
 //     noFill();
