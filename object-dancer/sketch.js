@@ -23,7 +23,7 @@ function setup() {
 }
 
 function draw() {
-  background(220);
+  background(0);
   for (let dancer of dancers) {
     dancer.update();
     dancer.display();
