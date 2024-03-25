@@ -16,7 +16,7 @@ function setup() {
   // no adjustments in the setup function needed...
   let canvas = createCanvas(windowWidth, windowHeight);
   canvas.parent("p5-canvas-container");
-  createCanvas(400, 400);
+  //createCanvas(400, 400);
   for (let i = 0; i < 1; i++) {
     dancers.push(new Dancer(width / 2, height / 2));
   }
