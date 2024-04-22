@@ -1,8 +1,10 @@
-body {
-    background-color: #d7fff9;
-    color: aliceblue;
+
+
+ body {
+    background-image: "background.jpg"
     font-family: 'Courier New', Courier, monospace;
     font-size: 1em;
+    font-family: 'Comic Sans MS';
 }
 
 /* title */
@@ -11,7 +13,7 @@ body {
 }
 .headline {
     font-size: 4em;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Comic Sans MS';
     font-weight: 600;
 }
 

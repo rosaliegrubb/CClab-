@@ -1,0 +1,120 @@
+body{
+    background-image: url("IMG_0989.jpg");
+    background-size: contain;
+    background-repeat: repeat;
+    font-size: 3em;
+    margin: 0;
+    padding: 0;
+    font-family: "Comic Sans MS";
+}
+.red{
+    background-color: rgb(255, 121, 255);
+    font-size: 0.5em;
+    color: rgb(68, 68, 167);
+    margin: 0;
+    padding: 0;
+    font-family: "Comic Sans MS";
+}
+
+.blue{
+    background-color: rgb(92, 92, 218);
+    font-size: 2em;
+    color: rgb(255, 40, 255);
+    margin: 20px 50px; 
+    padding: 20px;
+    border: 50px yellow;
+    border-style:double;
+    font-family: "Comic Sans MS";
+    text-shadow:
+    -1px -1px 0 #fff,  
+      1px -1px 0 #fff,
+      -1px 1px 0 #fff,
+      1px 1px 0 #fff; /* Outline color */
+}
+
+.green{
+    font-size: 1em;
+    color: #ffffff;
+    font-family: "Comic Sans MS";
+    font-weight: 500;
+    text-shadow: 
+    -2px -1px 0 black,  
+      1px -1px 0 black,
+      -2px 1px 0 black,
+      1px 1px 0 black; /* Outline color */
+}
+
+.green1{
+    font-size: 0.75em;
+    color:#f5d4ec;
+    font-family: "Comic Sans MS";
+    text-shadow:
+    -1px -1px 0 black,  
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black; /* Outline color */
+}
+.green2{
+    font-size: 0.75em;
+    color:#f5d4ec;
+    font-family: "Comic Sans MS";
+    background-color: rgb(236, 79, 218);
+    margin: 20px 100px; 
+    padding: 10px;
+    text-shadow:
+    -1px -1px 0 black,  
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black; /* Outline color */
+}
+.black{
+    background-color: rgb(251, 251, 65);
+    margin: 20px 50px; 
+    padding: 20px;
+    font-size: 0.5em;
+    color:rgb(14, 24, 209);
+    font-family: "Comic Sans MS";
+    text-shadow: 
+    -1px -1px 0 rgb(255, 40, 255),  
+    1px -1px 0 rgb(255, 40, 255),
+    -1px 1px 0 rgb(255, 40, 255),
+    1px 1px 0 rgb(255, 40, 255); /* Outline color */
+}
+.painting {
+    display: flex;
+  }
+  
+  .left-column, .right-column {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .left-column {
+    background-color: rgb(78, 78, 220);
+  }
+  
+  .right-column {
+    background-color: rgb(94, 94, 239);
+  }
+  
+  .sculpture {
+    display: flex;
+  }
+  
+  .left-column, .right-column {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .left-column {
+    background-color: rgb(238, 74, 197);
+  }
+  
+  .right-column {
+    background-color: rgb(255, 124, 240);
+  }
+  
+  .p5-canvas-container {
+    margin: auto;
+    width: 800px;
+}
