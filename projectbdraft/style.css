@@ -5,7 +5,7 @@ body{
     font-size: 3em;
     margin: 0;
     padding: 0;
-    font-family: "Comic Sans MS";
+    font-family: "Avenir";
 }
 .red{
     background-color: rgb(255, 121, 255);
@@ -13,7 +13,7 @@ body{
     color: rgb(68, 68, 167);
     margin: 0;
     padding: 0;
-    font-family: "Comic Sans MS";
+    font-family: "Avenir";
 }
 
 .blue{
@@ -24,7 +24,7 @@ body{
     padding: 20px;
     border: 50px yellow;
     border-style:double;
-    font-family: "Comic Sans MS";
+    font-family: "Avenir";
     text-shadow:
     -1px -1px 0 #fff,  
       1px -1px 0 #fff,
@@ -35,7 +35,7 @@ body{
 .green{
     font-size: 1em;
     color: #ffffff;
-    font-family: "Comic Sans MS";
+    font-family: "Avenir";
     font-weight: 500;
     text-shadow: 
     -2px -1px 0 black,  
@@ -47,7 +47,7 @@ body{
 .green1{
     font-size: 0.75em;
     color:#f5d4ec;
-    font-family: "Comic Sans MS";
+    font-family: "Avenir";
     text-shadow:
     -1px -1px 0 black,  
     1px -1px 0 black,
@@ -57,7 +57,7 @@ body{
 .green2{
     font-size: 0.75em;
     color:#f5d4ec;
-    font-family: "Comic Sans MS";
+    font-family: "Avenir";
     background-color: rgb(236, 79, 218);
     margin: 20px 100px; 
     padding: 10px;
@@ -67,13 +67,23 @@ body{
     -1px 1px 0 black,
     1px 1px 0 black; /* Outline color */
 }
+.green3{
+  font-size: 0.55em;
+  color:#f5d4ec;
+  font-family: "Avenir";
+  text-shadow:
+  -1px -1px 0 black,  
+  1px -1px 0 black,
+  -1px 1px 0 black,
+  1px 1px 0 black; /* Outline color */
+}
 .black{
     background-color: rgb(251, 251, 65);
     margin: 20px 50px; 
     padding: 20px;
     font-size: 0.5em;
     color:rgb(14, 24, 209);
-    font-family: "Comic Sans MS";
+    font-family: "Avenir";
     text-shadow: 
     -1px -1px 0 rgb(255, 40, 255),  
     1px -1px 0 rgb(255, 40, 255),
@@ -104,6 +114,7 @@ body{
   .left-column, .right-column {
     flex: 1;
     padding: 20px;
+    height: 480px;
   }
   
   .left-column {
@@ -114,7 +125,76 @@ body{
     background-color: rgb(255, 124, 240);
   }
   
-  .p5-canvas-container {
-    margin: auto;
-    width: 800px;
+.center{
+  text-align: center;
+}
+.button {
+  text-align: center;
+  display: inline-block;
+  background-color: rgb(92, 92, 218);
+  text-decoration: none;
+    font-size: .5em;
+    color: rgb(249, 249, 249);
+    margin: 10px 20px; 
+    padding: 10px;
+    border: 10px yellow;
+    border-style:solid;
+  position: relative;
+  cursor: pointer;
+  font-family: "Avenir"
+}
+
+.purple{
+  font-size: 0.75em;
+  color:#f5d4ec;
+  font-family: "Alumni Sans";
+  background-color: rgb(194, 79, 236);
+  margin: 20px 100px; 
+  padding: 10px;
+  text-shadow:
+  -1px -1px 0 black,  
+  1px -1px 0 black,
+  -1px 1px 0 black,
+  1px 1px 0 black; /* Outline color */
+}
+.button2 {
+  text-align: center;
+  position: fixed;
+  z-index: 2;
+  background-color: rgb(92, 92, 218);
+  text-decoration: none;
+  font-size: .5em;
+  color: rgb(249, 249, 249);
+  margin: 10px 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 50%; 
+  width: 50px; 
+  height: 50px;
+  cursor: pointer;
+  font-family: "Avenir";
+}
+
+
+.fourcolumn {
+  display: flex;
+}
+
+.column {
+  flex: 1; /* Each column takes up an equal amount of space */
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.canvas1Frame {
+  width: 90% !important;
+  height: 70%;
+}
+.canvas2Frame {
+  width: 100% !important;
+  height: 100%;
+}
+
+iframe {
+  display: block;
 }
